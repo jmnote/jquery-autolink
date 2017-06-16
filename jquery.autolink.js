@@ -6,4 +6,4 @@
 			$(this).html( $(this).html().replace(re, '<a href="$1" target="'+ target +'">$1</a> ') );
 		});
 	}
-}(jQuery || $));
+})(jQuery);
